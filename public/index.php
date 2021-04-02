@@ -4,7 +4,6 @@
  * Se utiliza __DIR__  para que la ruta sea absoluta */
 require __DIR__ . '/../vendor/autoload.php';
 
-
 /* Para ver una ruta, se ejecuta el siguiente comando */
 // var_dump(__DIR__ . '/../vendor/autoload.php');
 
