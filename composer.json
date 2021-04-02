@@ -1,0 +1,21 @@
+{
+    "name": "oficina/php-framework",
+    "description": "Curso de framework de PHP",
+    "type": "project",
+    "license": "Apache 2.0",
+    "authors": [
+        {
+            "name": "Susana Piñero",
+            "email": "susananzth@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "App\\": "app/"
+        },
+        "files": [
+          "app/helpers.php"
+        ]
+      }
+}
