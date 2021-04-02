@@ -14,8 +14,8 @@ class response{
     public function send() {
         $view=$this->getview();
         //home se guarda en content
-        $content=file_get_contents(__DIR__ ."/../../view/$view.php");
+        $content=file_get_contents(viewPath($view));
 
-        require __DIR__ ."/../../layout.php";
+        require viewPath('layout');
     }
 }
